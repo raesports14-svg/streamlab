@@ -1,7 +1,7 @@
 {
   "name": "slobs-client",
-  "productName": "Streamlabs Desktop",
-  "description": "Streamlabs streaming software",
+  "productName": "Veltrix Desktop",
+  "description": "Veltrix streaming software",
   "author": "General Workings, Inc.",
   "license": "GPL-3.0",
   "version": "1.19.6",
