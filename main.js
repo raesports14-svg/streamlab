@@ -223,8 +223,8 @@ app.on('ready', () => {
       // This error code indicates a read only file system
       if (e.code === 'EROFS') {
         dialog.showErrorBox(
-          'Streamlabs Desktop',
-          'Please run Streamlabs Desktop from your Applications folder. Streamlabs Desktop cannot run directly from this disk image.',
+          'Veltrix Desktop',
+          'Please run Veltrix Desktop from your Applications folder. Veltrix Desktop cannot run directly from this disk image.',
         );
         app.exit();
       }
@@ -306,7 +306,7 @@ async function startApp() {
   function handleFinishedReport() {
     dialog.showErrorBox(
       'Something Went Wrong',
-      'An unexpected error occured and Streamlabs Desktop must be shut down.\n' +
+      'An unexpected error occured and Veltrix Desktop must be shut down.\n' +
         'Please restart the application.',
     );
 
@@ -326,8 +326,8 @@ async function startApp() {
 
     if (submitURL) {
       crashReporter.start({
-        productName: 'streamlabs-obs',
-        companyName: 'streamlabs',
+        productName: 'Veltrix',
+        companyName: 'Veltrix-Akarsha',
         ignoreSystemCrashHandler: true,
         submitURL,
         extra: {
@@ -386,7 +386,7 @@ async function startApp() {
     show: false,
     frame: false,
     titleBarStyle: 'hidden',
-    title: 'Streamlabs Desktop',
+    title: 'Veltrix Desktop',
     backgroundColor: '#17242D',
     webPreferences: {
       nodeIntegration: true,
